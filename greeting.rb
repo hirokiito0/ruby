@@ -1,8 +1,10 @@
-def greeting
-  "Hello"
+def greeting(name)
+  "Hello,#{name}"
 end
 
-puts greeting
+# 'John'を引数として渡す
+puts greeting("John")
+
 
          # 引数は任意
 #  def メソッド名(引数)  
